@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uthaer-Calzados</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    
+    <header>
+      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a href="index.html" class="navbar-brand">
+                  <img src="img/LogoW_png.png" height="70px" width="200px" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarHeader">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a href="#" class="nav-link active">Catalogo</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="contacto.html" class="nav-link">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="horarios.html" class="nav-link">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="novedades.html" class="nav-link">Novedades</a>
+                  </li>
+                  </ul>
+                  <a href="#" class="btn btn-dark">Carrito</a>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <main>
+    <div class="container-img">
+        <img
+            src="img/Adidas Running Grey.jpg"
+            alt="imagen-producto"
+            height="100%"
+            width="100%"
+        />
+    </div>
+    <div class="container-info-product">
+        <div class="container-price">
+            <span>$31.899,99 ARS</span>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+        <div class="container-details-product">
+            <div class="form-group">
+                <label for="colour">Color</label>
+                <select name="colour" id="colour">
+                    <option disabled selected value="">
+                        Escoge una opción
+                    </option>
+                    <option value="rojo">Gris</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="size">Talle</label>
+                <select name="size" id="size">
+                    <option disabled selected value="">
+                        Escoge una opción
+                    </option>
+                    <option value="40">36</option>
+                    <option value="42">37</option>
+                    <option value="43">38</option>
+                    <option value="44">39</option>
+                    <option value="40">40</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                </select>
+            </div>
+        </div>
+
+        <strong><p>Cantidad:</p></strong>
+        <div class="container-add-cart">
+            <div class="container-quantity">
+                <input
+                    type="number"
+                    placeholder="1"
+                    value="1"
+                    min="1"
+                    class="input-quantity"
+                />
+                <div class="btn-increment-decrement">
+                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                </div>
+            </div>
+            <button class="btn-add-to-cart">
+                <i class="fa-solid fa-plus"></i>
+                Añadir al carrito
+            </button>
+        </div>
+
+        <div class="container-description">
+            <div class="title-description">
+                <h4>Descripción</h4>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="text-description">
+                <p>
+                    Las zapatillas de running Adidas Grey combinan estilo y rendimiento en un solo calzado. Su diseño en tonos grises le confiere un aspecto contemporáneo y versátil, perfecto para complementar tus outfits deportivos. Estas zapatillas están equipadas con tecnologías avanzadas que ofrecen una amortiguación receptiva y un ajuste seguro, brindándote la comodidad y el soporte necesarios para tus carreras. Además, su construcción duradera y transpirable te garantiza una experiencia de running excepcional, sin importar la distancia que recorras.
+                </p>
+            </div>
+        </div>
